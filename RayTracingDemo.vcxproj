@@ -190,6 +190,7 @@
   <ItemGroup>
     <ClCompile Include="glad.c" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Scene.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Intel_OpenCL_Build_Rules Include="BlinnPhong.cl" />
@@ -199,9 +200,9 @@
     <Intel_OpenCL_Build_Rules Include="PathTrace.cl" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BasicDS.h" />
     <ClInclude Include="CLManager.h" />
     <ClInclude Include="GraphicManager.h" />
+    <ClInclude Include="Scene.h" />
     <ClInclude Include="util.h" />
   </ItemGroup>
   <ItemGroup>

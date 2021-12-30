@@ -31,15 +31,9 @@ struct Sphere {
 	Material mat;
 };
 
-cl_double3& operator /= (cl_double3& o1, const double o2)
-{
-	o1.x /= o2, o1.y /= o2, o1.z /= o2;
-	return o1;
-}
+cl_double3& operator /= (cl_double3& o1, const double o2);
 
-cl_double3 operator / (const cl_double3 o1, const double o2)
-{
-	cl_double3 ret = o1;
-	ret.x /= o2, ret.y /= o2, ret.z /= o2;
-	return ret;
-}
+cl_double3 operator / (const cl_double3 o1, const double o2);
+
+void initScene1(Camera& cam, Sphere sphere[], int& sphereSize, int winWidth, int winHeight);
+void initScene2(Camera& cam, Sphere sphere[], int& sphereSize, int winWidth, int winHeight);

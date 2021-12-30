@@ -21,6 +21,9 @@
     <ClCompile Include="glad.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Intel_OpenCL_Build_Rules Include="PathTrace.cl">
@@ -49,7 +52,7 @@
     <ClInclude Include="GraphicManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="BasicDS.h">
+    <ClInclude Include="Scene.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
